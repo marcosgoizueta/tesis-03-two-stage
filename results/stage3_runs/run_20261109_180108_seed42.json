@@ -1,0 +1,176 @@
+{
+  "timestamp": "2026-11-09T18:01:08",
+  "quick": false,
+  "seed": 42,
+  "device": "cpu",
+  "device_type": "cpu",
+  "elapsed_total_seconds": 99.2144188999664,
+  "fast_negative_sampling": false,
+  "libraries": {
+    "torch": "2.9.1+cpu",
+    "numpy": "1.23.5",
+    "pandas": "2.1.4",
+    "sklearn": "1.7.2",
+    "matplotlib": "3.10.8"
+  },
+  "hyperparameters": {
+    "test_size": 0.2,
+    "rating_threshold": 3.5,
+    "embed_dim_retrieval": 32,
+    "n_neg_per_pos_retrieval": 4,
+    "batch_size_retrieval": 256,
+    "lr_retrieval": 0.005,
+    "weight_decay_retrieval": 1e-06,
+    "n_epochs_retrieval": 30,
+    "max_candidates": 500,
+    "embed_dim_ranker": 32,
+    "hidden_ranker": [
+      128,
+      64
+    ],
+    "dropout_ranker": 0.2,
+    "lr_ranker": 0.002,
+    "weight_decay_ranker": 1e-05,
+    "batch_size_ranker": 1024,
+    "n_epochs_ranker": 8,
+    "hard_pool": 100,
+    "top_k": 10
+  },
+  "candidate_recalls": {
+    "10": 0.12753885483308564,
+    "50": 0.32848937442466114,
+    "100": 0.444077116205624,
+    "200": 0.5699882670711378,
+    "500": 0.72900857610751
+  },
+  "losses": {
+    "retrieval": [
+      0.6367855599291485,
+      0.3349722927358863,
+      0.2753212743164893,
+      0.23059030723959992,
+      0.19389071111536443,
+      0.16480272665611098,
+      0.144659593319003,
+      0.1282795819074195,
+      0.11612229227408905,
+      0.10715887562554954,
+      0.09883234795160083,
+      0.09291583657838702,
+      0.08855518516852706,
+      0.08334759786439255,
+      0.08013053299699183,
+      0.07692179537631014,
+      0.0736937356644737,
+      0.0721033437454312,
+      0.07045388700233465,
+      0.06764048087727746,
+      0.0663506910650018,
+      0.06470096097913512,
+      0.06327795138423434,
+      0.06296016390009676,
+      0.0613700801509166,
+      0.06047445631596748,
+      0.06083453976286789,
+      0.05930605657668948,
+      0.05796801017745456,
+      0.05666181452726708
+    ],
+    "rankers": {
+      "uniforme": [
+        0.3403835131659128,
+        0.26451889487004504,
+        0.24316804449067728,
+        0.19915991406163866,
+        0.15066470157407957,
+        0.12157359651858006,
+        0.10381922465974573,
+        0.09330507226635822
+      ],
+      "mixto": [
+        0.47623723618077957,
+        0.42404011632684085,
+        0.37218678600274796,
+        0.291739925309573,
+        0.2359385101878537,
+        0.20151530577288457,
+        0.17941623441887808,
+        0.16286359571493403
+      ]
+    }
+  },
+  "metrics": [
+    {
+      "modelo": "Popularidad (baseline)",
+      "precision_at_10": 0.14043261231281198,
+      "recall_at_10": 0.09395862036225895,
+      "ndcg_at_10": 0.1740341061549522,
+      "cobertura_catalogo": 0.006067461949814891,
+      "popularidad_media_recs": 163.49500831946756,
+      "ms_por_usuario": 0.2783161397990825
+    },
+    {
+      "modelo": "Retrieval (two-tower) solo",
+      "precision_at_10": 0.14775374376039935,
+      "recall_at_10": 0.12753885483308564,
+      "ndcg_at_10": 0.1907364066220802,
+      "cobertura_catalogo": 0.08350473056355409,
+      "popularidad_media_recs": 85.3144758735441,
+      "ms_por_usuario": 0.000360732148099263
+    },
+    {
+      "modelo": "Ranker[uniforme] catálogo completo (1 etapa)",
+      "precision_at_10": 0.1266222961730449,
+      "recall_at_10": 0.11456378834079037,
+      "ndcg_at_10": 0.15661082330805598,
+      "cobertura_catalogo": 0.13296997120526532,
+      "popularidad_media_recs": 84.3667221297837,
+      "ms_por_usuario": 22.790955407595334
+    },
+    {
+      "modelo": "Two-Stage[uniforme] N=50",
+      "precision_at_10": 0.18386023294509152,
+      "recall_at_10": 0.1509757183809543,
+      "ndcg_at_10": 0.2348828427277287,
+      "cobertura_catalogo": 0.07373508844097079,
+      "popularidad_media_recs": 106.48435940099833,
+      "ms_por_usuario": 0.32407237933917643
+    },
+    {
+      "modelo": "Two-Stage[uniforme] N=200",
+      "precision_at_10": 0.16921797004991684,
+      "recall_at_10": 0.1343109299331605,
+      "ndcg_at_10": 0.20790531524892067,
+      "cobertura_catalogo": 0.0855614973262032,
+      "popularidad_media_recs": 105.81747088186356,
+      "ms_por_usuario": 1.070626955088104
+    },
+    {
+      "modelo": "Ranker[mixto] catálogo completo (1 etapa)",
+      "precision_at_10": 0.017970049916805324,
+      "recall_at_10": 0.01194054843812469,
+      "ndcg_at_10": 0.020302731046805356,
+      "cobertura_catalogo": 0.1974496092143151,
+      "popularidad_media_recs": 16.386522462562397,
+      "ms_por_usuario": 22.44948552411589
+    },
+    {
+      "modelo": "Two-Stage[mixto] N=50",
+      "precision_at_10": 0.1600665557404326,
+      "recall_at_10": 0.13512804890832752,
+      "ndcg_at_10": 0.19728426574249364,
+      "cobertura_catalogo": 0.07949403537638831,
+      "popularidad_media_recs": 84.69068219633944,
+      "ms_por_usuario": 0.3704169716495407
+    },
+    {
+      "modelo": "Two-Stage[mixto] N=200",
+      "precision_at_10": 0.06356073211314477,
+      "recall_at_10": 0.05799175772171371,
+      "ndcg_at_10": 0.07739937394988836,
+      "cobertura_catalogo": 0.1497326203208556,
+      "popularidad_media_recs": 42.4630615640599,
+      "ms_por_usuario": 0.954680532482786
+    }
+  ]
+}

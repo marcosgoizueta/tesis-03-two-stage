@@ -1,0 +1,10 @@
+# Dependencias para Google Colab
+# Colab ya incluye PyTorch preinstalado con soporte CUDA.
+# No fijamos torch ni el índice de CUDA para evitar conflictos con el entorno de Colab.
+
+numpy>=1.23.5
+pandas>=2.1.0
+scikit-learn>=1.2.0
+matplotlib>=3.7.0
+pytest>=7.0.0
+

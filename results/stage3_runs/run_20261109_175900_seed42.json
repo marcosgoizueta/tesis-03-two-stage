@@ -1,0 +1,133 @@
+{
+  "timestamp": "2026-11-09T17:59:00",
+  "quick": true,
+  "seed": 42,
+  "device": "cpu",
+  "device_type": "cpu",
+  "elapsed_total_seconds": 8.293952399981208,
+  "fast_negative_sampling": false,
+  "libraries": {
+    "torch": "2.9.1+cpu",
+    "numpy": "1.23.5",
+    "pandas": "2.1.4",
+    "sklearn": "1.7.2",
+    "matplotlib": "3.10.8"
+  },
+  "hyperparameters": {
+    "test_size": 0.2,
+    "rating_threshold": 3.5,
+    "embed_dim_retrieval": 32,
+    "n_neg_per_pos_retrieval": 4,
+    "batch_size_retrieval": 256,
+    "lr_retrieval": 0.005,
+    "weight_decay_retrieval": 1e-06,
+    "n_epochs_retrieval": 1,
+    "max_candidates": 500,
+    "embed_dim_ranker": 32,
+    "hidden_ranker": [
+      128,
+      64
+    ],
+    "dropout_ranker": 0.2,
+    "lr_ranker": 0.002,
+    "weight_decay_ranker": 1e-05,
+    "batch_size_ranker": 1024,
+    "n_epochs_ranker": 1,
+    "hard_pool": 100,
+    "top_k": 10
+  },
+  "candidate_recalls": {
+    "10": 0.03783929898642686,
+    "50": 0.17428177441537016,
+    "100": 0.25673491130374587,
+    "200": 0.3920756830754069,
+    "500": 0.541344835949227
+  },
+  "losses": {
+    "retrieval": [
+      0.6367855599291485
+    ],
+    "rankers": {
+      "uniforme": [
+        0.3403835131659128
+      ],
+      "mixto": [
+        0.4370027369199586
+      ]
+    }
+  },
+  "metrics": [
+    {
+      "modelo": "Popularidad (baseline)",
+      "precision_at_10": 0.11333333333333334,
+      "recall_at_10": 0.051842732660876814,
+      "ndcg_at_10": 0.12263508493056016,
+      "cobertura_catalogo": 0.003702180172768408,
+      "popularidad_media_recs": 163.12666666666667,
+      "ms_por_usuario": 0.24827333400025967
+    },
+    {
+      "modelo": "Retrieval (two-tower) solo",
+      "precision_at_10": 0.1,
+      "recall_at_10": 0.03783929898642686,
+      "ndcg_at_10": 0.10086784473729352,
+      "cobertura_catalogo": 0.003702180172768408,
+      "popularidad_media_recs": 151.9,
+      "ms_por_usuario": 0.0003100004202375809
+    },
+    {
+      "modelo": "Ranker[uniforme] catálogo completo (1 etapa)",
+      "precision_at_10": 0.14666666666666664,
+      "recall_at_10": 0.1030861028361719,
+      "ndcg_at_10": 0.16762701867486238,
+      "cobertura_catalogo": 0.006375976964212258,
+      "popularidad_media_recs": 141.59333333333333,
+      "ms_por_usuario": 3.438830001202102
+    },
+    {
+      "modelo": "Two-Stage[uniforme] N=50",
+      "precision_at_10": 0.13999999999999999,
+      "recall_at_10": 0.08796666954461764,
+      "ndcg_at_10": 0.16218175969748108,
+      "cobertura_catalogo": 0.005244755244755245,
+      "popularidad_media_recs": 147.01666666666668,
+      "ms_por_usuario": 0.15534333263834318
+    },
+    {
+      "modelo": "Two-Stage[uniforme] N=200",
+      "precision_at_10": 0.14666666666666664,
+      "recall_at_10": 0.1030861028361719,
+      "ndcg_at_10": 0.16762701867486238,
+      "cobertura_catalogo": 0.006273138626079803,
+      "popularidad_media_recs": 142.16333333333333,
+      "ms_por_usuario": 0.21975666750222445
+    },
+    {
+      "modelo": "Ranker[mixto] catálogo completo (1 etapa)",
+      "precision_at_10": 0.03666666666666667,
+      "recall_at_10": 0.012600438776909365,
+      "ndcg_at_10": 0.036266679188591194,
+      "cobertura_catalogo": 0.013060468942821883,
+      "popularidad_media_recs": 37.17666666666667,
+      "ms_por_usuario": 3.2544833336335914
+    },
+    {
+      "modelo": "Two-Stage[mixto] N=50",
+      "precision_at_10": 0.14333333333333334,
+      "recall_at_10": 0.07991914698729115,
+      "ndcg_at_10": 0.16671296270283356,
+      "cobertura_catalogo": 0.004730563554092966,
+      "popularidad_media_recs": 148.49333333333334,
+      "ms_por_usuario": 0.1608699987021585
+    },
+    {
+      "modelo": "Two-Stage[mixto] N=200",
+      "precision_at_10": 0.04000000000000001,
+      "recall_at_10": 0.03887588757307067,
+      "ndcg_at_10": 0.037981741777413,
+      "cobertura_catalogo": 0.010798025503907857,
+      "popularidad_media_recs": 64.49333333333334,
+      "ms_por_usuario": 0.1865800004452467
+    }
+  ]
+}

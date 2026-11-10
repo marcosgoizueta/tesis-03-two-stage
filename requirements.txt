@@ -1,0 +1,11 @@
+# Dependencias del proyecto
+# Para GPU con CUDA 12.4 (NVIDIA Driver >= 555.97):
+# pip install torch==2.6.0+cu124 --extra-index-url https://download.pytorch.org/whl/cu124
+
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0+cu124
+numpy>=1.23.5
+pandas>=2.1.0
+scikit-learn>=1.2.0
+matplotlib>=3.7.0
+pytest>=7.0.0

@@ -1,0 +1,192 @@
+{
+  "timestamp": "2026-11-09T18:51:27",
+  "quick": false,
+  "seed": 42,
+  "device": {
+    "device_type": "cuda",
+    "device_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "cuda_version": "12.4",
+    "torch_variant": "2.6.0+cu124",
+    "cuda_device_count": 1,
+    "cuda_capability": [
+      8,
+      9
+    ]
+  },
+  "elapsed_total_seconds": 52.481490900041535,
+  "fast_negative_sampling": false,
+  "system": {
+    "os": "Windows-10-10.0.26200-SP0",
+    "os_name": "Windows",
+    "os_release": "10",
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]"
+  },
+  "libraries": {
+    "torch": "2.6.0+cu124",
+    "cuda_torch": "12.4",
+    "numpy": "1.23.5",
+    "pandas": "2.1.4",
+    "sklearn": "1.7.2",
+    "matplotlib": "3.10.8"
+  },
+  "hyperparameters": {
+    "test_size": 0.2,
+    "rating_threshold": 3.5,
+    "embed_dim_retrieval": 32,
+    "n_neg_per_pos_retrieval": 4,
+    "batch_size_retrieval": 256,
+    "lr_retrieval": 0.005,
+    "weight_decay_retrieval": 1e-06,
+    "n_epochs_retrieval": 30,
+    "max_candidates": 500,
+    "embed_dim_ranker": 32,
+    "hidden_ranker": [
+      128,
+      64
+    ],
+    "dropout_ranker": 0.2,
+    "lr_ranker": 0.002,
+    "weight_decay_ranker": 1e-05,
+    "batch_size_ranker": 1024,
+    "n_epochs_ranker": 8,
+    "hard_pool": 100,
+    "top_k": 10
+  },
+  "candidate_recalls": {
+    "10": 0.12753885483308564,
+    "50": 0.32848937442466114,
+    "100": 0.444077116205624,
+    "200": 0.5699882670711378,
+    "500": 0.72900857610751
+  },
+  "losses": {
+    "retrieval": [
+      0.6367855698179884,
+      0.33497230183345006,
+      0.2753212806421721,
+      0.230590314869289,
+      0.19389071506480438,
+      0.16480273129150472,
+      0.14465959806092626,
+      0.1282795836843204,
+      0.11612229374196373,
+      0.10715887693423345,
+      0.09883234996027145,
+      0.09291583850980106,
+      0.08855518691147736,
+      0.0833475995733922,
+      0.08013053619378387,
+      0.07692179756348566,
+      0.07369373827656031,
+      0.07210334523262002,
+      0.07045388916084075,
+      0.06764048184298449,
+      0.06635069303504414,
+      0.06470096306973994,
+      0.06327795298263036,
+      0.0629601661188841,
+      0.06137008168669255,
+      0.060474457204417936,
+      0.06083454056938414,
+      0.05930605840685518,
+      0.057968011476179616,
+      0.05666181529515506
+    ],
+    "rankers": {
+      "uniforme": [
+        0.34019983556427674,
+        0.26427584870731413,
+        0.24425234642710983,
+        0.20021143931258958,
+        0.15005449843042848,
+        0.11953463694165399,
+        0.10237390947760311,
+        0.0921452451915211
+      ],
+      "mixto": [
+        0.4768013350075432,
+        0.42539779509123266,
+        0.3767450669779581,
+        0.30488290415163244,
+        0.24566222321442252,
+        0.2087147050189043,
+        0.184326376508017,
+        0.16629788256899627
+      ]
+    }
+  },
+  "metrics": [
+    {
+      "modelo": "Popularidad (baseline)",
+      "precision_at_10": 0.13960066555740433,
+      "recall_at_10": 0.09359582924937333,
+      "ndcg_at_10": 0.17350064562846776,
+      "cobertura_catalogo": 0.005964623611682435,
+      "popularidad_media_recs": 163.49500831946756,
+      "ms_por_usuario": 0.252107321110379
+    },
+    {
+      "modelo": "Retrieval (two-tower) solo",
+      "precision_at_10": 0.14775374376039935,
+      "recall_at_10": 0.12753885483308564,
+      "ndcg_at_10": 0.1907364066220802,
+      "cobertura_catalogo": 0.08350473056355409,
+      "popularidad_media_recs": 85.3144758735441,
+      "ms_por_usuario": 0.0002034941762561806
+    },
+    {
+      "modelo": "Ranker[uniforme] catálogo completo (1 etapa)",
+      "precision_at_10": 0.11680532445923461,
+      "recall_at_10": 0.1088260135407373,
+      "ndcg_at_10": 0.1461018541384762,
+      "cobertura_catalogo": 0.136055121349239,
+      "popularidad_media_recs": 81.1883527454243,
+      "ms_por_usuario": 1.1559495839527414
+    },
+    {
+      "modelo": "Two-Stage[uniforme] N=50",
+      "precision_at_10": 0.17121464226289518,
+      "recall_at_10": 0.14338660858699076,
+      "ndcg_at_10": 0.2177690396947813,
+      "cobertura_catalogo": 0.0772315919374743,
+      "popularidad_media_recs": 101.54908485856905,
+      "ms_por_usuario": 0.4280251247448825
+    },
+    {
+      "modelo": "Two-Stage[uniforme] N=200",
+      "precision_at_10": 0.15690515806988356,
+      "recall_at_10": 0.1300810788813812,
+      "ndcg_at_10": 0.19138983755712832,
+      "cobertura_catalogo": 0.09245166598107775,
+      "popularidad_media_recs": 99.77820299500831,
+      "ms_por_usuario": 0.41875740431462993
+    },
+    {
+      "modelo": "Ranker[mixto] catálogo completo (1 etapa)",
+      "precision_at_10": 0.01896838602329451,
+      "recall_at_10": 0.011210990507132772,
+      "ndcg_at_10": 0.02079264921678554,
+      "cobertura_catalogo": 0.19127930892636774,
+      "popularidad_media_recs": 16.132778702163062,
+      "ms_por_usuario": 1.1081475873567637
+    },
+    {
+      "modelo": "Two-Stage[mixto] N=50",
+      "precision_at_10": 0.16472545757071547,
+      "recall_at_10": 0.13534353666504179,
+      "ndcg_at_10": 0.1998457768027234,
+      "cobertura_catalogo": 0.0765117235705471,
+      "popularidad_media_recs": 84.3910149750416,
+      "ms_por_usuario": 0.4087758734597578
+    },
+    {
+      "modelo": "Two-Stage[mixto] N=200",
+      "precision_at_10": 0.0632279534109817,
+      "recall_at_10": 0.05829176579621172,
+      "ndcg_at_10": 0.07591373467720683,
+      "cobertura_catalogo": 0.15220074043603454,
+      "popularidad_media_recs": 40.10432612312812,
+      "ms_por_usuario": 0.3989672212948257
+    }
+  ]
+}

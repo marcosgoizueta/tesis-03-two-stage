@@ -1,0 +1,13 @@
+contraste,metrica,media_diferencia,desvio_diferencia,semillas_positivas
+Two-Stage[uniforme] N=50 menos Retrieval solo,ndcg_at_10,0.041938524445006925,0.005045715849029661,5/5 (100.0%)
+Two-Stage[uniforme] N=50 menos Ranker[uniforme] catálogo completo,ndcg_at_10,0.0648094202626647,0.016351967571325066,5/5 (100.0%)
+Retrieval solo menos Popularidad,ndcg_at_10,0.018286054630180043,0.004020269891244533,5/5 (100.0%)
+Ranker[uniforme] catálogo completo menos Retrieval solo,ndcg_at_10,-0.02287089581765777,0.020077421355673277,1/5 (20.0%)
+Two-Stage[uniforme] N=50 menos Retrieval solo,recall_at_10,0.017297245929718073,0.006136675066492715,5/5 (100.0%)
+Two-Stage[uniforme] N=50 menos Ranker[uniforme] catálogo completo,recall_at_10,0.03033082768542413,0.005966108085101879,5/5 (100.0%)
+Retrieval solo menos Popularidad,recall_at_10,0.03651240816571361,0.00446190150528628,5/5 (100.0%)
+Ranker[uniforme] catálogo completo menos Retrieval solo,recall_at_10,-0.013033581755706056,0.009480270750034995,1/5 (20.0%)
+Two-Stage[uniforme] N=50 menos Retrieval solo,precision_at_10,0.03400998336106488,0.0025604504574604225,5/5 (100.0%)
+Two-Stage[uniforme] N=50 menos Ranker[uniforme] catálogo completo,precision_at_10,0.05058236272878537,0.010967822627405675,5/5 (100.0%)
+Retrieval solo menos Popularidad,precision_at_10,0.01247920133111482,0.002509667741929845,5/5 (100.0%)
+Ranker[uniforme] catálogo completo menos Retrieval solo,precision_at_10,-0.016572379367720484,0.011308724191397135,1/5 (20.0%)

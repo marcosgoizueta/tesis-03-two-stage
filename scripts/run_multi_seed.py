@@ -21,6 +21,10 @@ import torch
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 
+import matplotlib
+
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
@@ -90,6 +94,33 @@ def set_seed(seed: int, device: torch.device):
         torch.cuda.manual_seed_all(seed)
 
 
+def plot_and_save_losses(
+    retrieval_losses: list,
+    trivial_bce: float,
+    figures_dir: Path,
+    epochs: int,
+) -> Path:
+    figures_dir.mkdir(parents=True, exist_ok=True)
+    out_path = figures_dir / "loss_retrieval.png"
+
+    plt.figure(figsize=(6, 4))
+    if epochs == 1:
+        plt.plot(range(1, epochs + 1), retrieval_losses, label="Retrieval", marker="o")
+    else:
+        plt.plot(range(1, epochs + 1), retrieval_losses, label="Retrieval")
+    plt.axhline(trivial_bce, color="gray", linestyle="--", label="Modelo trivial")
+    plt.legend()
+    plt.title("Curva de entrenamiento — Retrieval (BCE)")
+    plt.xlabel("Época")
+    plt.ylabel("BCE loss")
+    plt.tight_layout()
+    plt.savefig(out_path, dpi=150)
+    plt.close()
+
+    print(f"Figura de pérdida guardada en {out_path}")
+    return out_path
+
+
 def run_pipeline_for_seed(seed: int, cfg: Stage3Config, data, device: torch.device):
     print(f"\n==========================================")
     print(f"EJECUTANDO SEMILLA: {seed}")
@@ -111,7 +142,18 @@ def run_pipeline_for_seed(seed: int, cfg: Stage3Config, data, device: torch.devi
         embed_dim=cfg.embed_dim_retrieval,
     ).to(device)
 
-    train_retrieval(retrieval_model, retrieval_dataset, cfg, device)
+    retrieval_losses = train_retrieval(retrieval_model, retrieval_dataset, cfg, device)
+
+    # Guardar curva de entrenamiento para la semilla base
+    if seed == cfg.seed:
+        p_pos = 1 / (1 + cfg.n_neg_per_pos_retrieval)
+        trivial_bce = -(p_pos * np.log(p_pos) + (1 - p_pos) * np.log(1 - p_pos))
+        plot_and_save_losses(
+            retrieval_losses,
+            trivial_bce,
+            cfg.figures_dir,
+            cfg.n_epochs_retrieval,
+        )
 
     retrieval_topk = compute_retrieval_candidates(
         model=retrieval_model,

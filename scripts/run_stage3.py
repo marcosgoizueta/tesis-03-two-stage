@@ -124,7 +124,10 @@ def plot_and_save_losses(
     out_path = figures_dir / "loss_retrieval.png"
 
     plt.figure(figsize=(6, 4))
-    plt.plot(range(1, epochs + 1), retrieval_losses, label="Retrieval")
+    if epochs == 1:
+        plt.plot(range(1, epochs + 1), retrieval_losses, label="Retrieval", marker="o")
+    else:
+        plt.plot(range(1, epochs + 1), retrieval_losses, label="Retrieval")
     plt.axhline(trivial_bce, color="gray", linestyle="--", label="Modelo trivial")
     plt.legend()
     plt.title("Curva de entrenamiento — Retrieval (BCE)")

@@ -1,0 +1,7 @@
+{
+  "n_items_total": 9724,
+  "n_unique_genre_vectors": 951,
+  "mean_block_size": 10.225026288117771,
+  "max_block_size": 1050,
+  "mean_tie_fraction_in_top200": 0.12846089850249587
+}

@@ -31,9 +31,13 @@ htmlcov/
 # Dataset pesado (se descarga automáticamente al ejecutar el pipeline)
 data/ml-latest-small/
 data/*.zip
+data/cache/
 
 # Scratch temporal
 scratch/
+results/quick/
+results/**/vectors/
+*.npz
 
 # IDE / OS
 .vscode/

@@ -149,6 +149,8 @@ def main() -> None:
     # Separar almacenamiento por dispositivo para no mezclar ni sobrescribir
     if args.results_dir is not None:
         target_results_dir = args.results_dir
+    elif args.quick:
+        target_results_dir = Path("results/quick")
     else:
         target_results_dir = Path("results/gpu") if device.type == "cuda" else Path("results/cpu")
 

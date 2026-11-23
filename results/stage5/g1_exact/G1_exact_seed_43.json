@@ -1,0 +1,42 @@
+{
+  "seed": 43,
+  "code_hash": "fb8fcf15104f1b25",
+  "n_eval_users": 592,
+  "train_time_s": 446.8617367000552,
+  "config": {
+    "max_len": 100,
+    "policy": "balanceado",
+    "lr": 0.001,
+    "dropout": 0.1,
+    "epochs": 18
+  },
+  "beam_50": {
+    "ndcg@10": 0.06868963986179917,
+    "recall@10": 0.05162621873847205,
+    "recall@50": 0.18772143216129125,
+    "cold_recall@50": 0.0,
+    "cov@10": 0.02241875771287536,
+    "tail@10": 0.00793918918918919,
+    "n_eval_users": 592,
+    "latency_ms": 93.09490371634712
+  },
+  "exact": {
+    "ndcg@10": 0.07335617974599215,
+    "recall@10": 0.051055971280235465,
+    "recall@50": 0.17226353293436097,
+    "cold_recall@50": 0.0,
+    "cov@10": 0.02529823118058412,
+    "tail@10": 0.002702702702702703,
+    "n_eval_users": 592,
+    "latency_ms": 664.851135641928
+  },
+  "jaccard_top10_mean": 0.24796330954419188,
+  "jaccard_top50_mean": 0.5218580835145967,
+  "top1_agreement": 0.0777027027027027,
+  "delta_ndcg10_exact_minus_beam": 0.00466653988419298,
+  "saved_per_seed_beam_ndcg10": 0.06868963986179917,
+  "reproduction_diff_beam_ndcg10": 0.0,
+  "device": "cuda",
+  "torch": "2.6.0+cu124",
+  "note_exact": "log-prob de 4 tokens [c1,c2,c3,d] sobre \u00edtems v\u00e1lidos no vistos; sin token EOS."
+}

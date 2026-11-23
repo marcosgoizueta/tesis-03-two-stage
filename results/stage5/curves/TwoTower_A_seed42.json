@@ -1,0 +1,50 @@
+{
+  "model": "Two-Tower (A - Solo ID)",
+  "variant": "A",
+  "seed": 42,
+  "best_epoch": 2,
+  "best_val_loss": 0.36136474808456914,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.6463170906491322,
+      "val_loss": 0.4853149395593455
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.3308263692092488,
+      "val_loss": 0.36136474808456914
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.25916817138374476,
+      "val_loss": null
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.21899298138204878,
+      "val_loss": 0.3572810492765016
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.1873430328466906,
+      "val_loss": null
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.16098335962090882,
+      "val_loss": 0.38322356111806644
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.13941427637526524,
+      "val_loss": null
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.12358824846071043,
+      "val_loss": 0.4202529908905567
+    }
+  ],
+  "timestamp": 1795154447.7279963
+}

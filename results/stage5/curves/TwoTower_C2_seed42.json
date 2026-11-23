@@ -1,0 +1,80 @@
+{
+  "model": "Two-Tower (C2 - H\u00edbrido ID+Texto con Dropout)",
+  "variant": "C2",
+  "seed": 42,
+  "best_epoch": 8,
+  "best_val_loss": 0.3225570769377158,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4331249374515335,
+      "val_loss": 0.3968519351132199
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.3243803957917047,
+      "val_loss": 0.3438102551389268
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.2783171435418474,
+      "val_loss": null
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.25486499766508736,
+      "val_loss": 0.3367631777191546
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.24154167705357898,
+      "val_loss": null
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.2314622094817204,
+      "val_loss": 0.332228843235154
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.2215351041789022,
+      "val_loss": null
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.21333105840649724,
+      "val_loss": 0.3225570769377158
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.20617888832986792,
+      "val_loss": null
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.20111679900804297,
+      "val_loss": 0.3295626056506121
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.1964765175608739,
+      "val_loss": null
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.1905947895064935,
+      "val_loss": 0.3550369987305501
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.18663494854122786,
+      "val_loss": null
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.1823345096622386,
+      "val_loss": 0.3427887973890938
+    }
+  ],
+  "timestamp": 1795154514.2532852
+}

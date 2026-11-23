@@ -1,0 +1,872 @@
+{
+  "FP_Two-Tower_A|42": {
+    "ndcg_new": 0.08947667880322377,
+    "ndcg_published": 0.08947667880322377,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Stage|42": {
+    "ndcg_new": 0.09457120391886804,
+    "ndcg_published": 0.09457120391886804,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_B|42": {
+    "ndcg_new": 0.10227437163957426,
+    "ndcg_published": 0.10227437163957426,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_C2|42": {
+    "ndcg_new": 0.10010295226380626,
+    "ndcg_published": 0.10010295226380626,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_D2|42": {
+    "ndcg_new": 0.10201580031313846,
+    "ndcg_published": 0.10201580031313846,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_A|42": {
+    "ndcg_new": 0.07947512803199494,
+    "ndcg_published": 0.07947512803199494,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Stage|42": {
+    "ndcg_new": 0.10055005503056538,
+    "ndcg_published": 0.10055005503056538,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_B|42": {
+    "ndcg_new": 0.09516667699627443,
+    "ndcg_published": 0.09516667699627443,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_C2|42": {
+    "ndcg_new": 0.10670586276914587,
+    "ndcg_published": 0.10670586276914587,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_D2|42": {
+    "ndcg_new": 0.1026447915209404,
+    "ndcg_published": 0.1026447915209404,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G1|42": {
+    "ndcg_new": 0.0658444750972349,
+    "ndcg_published": 0.0658444750972349,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G2|42": {
+    "ndcg_new": 0.03989043657936148,
+    "ndcg_published": 0.03989043657936148,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_beam|42": {
+    "ndcg_new": 0.08315998884797181,
+    "ndcg_published": 0.08315998884797181,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_exact|42": {
+    "ndcg_new": 0.08420411607330346,
+    "ndcg_published": 0.08420411607330346,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G1b|42": {
+    "ndcg_new": 0.0478937702387699,
+    "ndcg_published": 0.0478937702387699,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_A|43": {
+    "ndcg_new": 0.10066787139013376,
+    "ndcg_published": 0.10066787139013376,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Stage|43": {
+    "ndcg_new": 0.09575068147149689,
+    "ndcg_published": 0.09575068147149689,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_B|43": {
+    "ndcg_new": 0.0966215658934374,
+    "ndcg_published": 0.0966215658934374,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_C2|43": {
+    "ndcg_new": 0.10751383506151409,
+    "ndcg_published": 0.10751383506151409,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_D2|43": {
+    "ndcg_new": 0.10570553385781875,
+    "ndcg_published": 0.10570553385781875,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_A|43": {
+    "ndcg_new": 0.08192451473560465,
+    "ndcg_published": 0.08192451473560465,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Stage|43": {
+    "ndcg_new": 0.10541835551219061,
+    "ndcg_published": 0.10541835551219061,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_B|43": {
+    "ndcg_new": 0.0939329996452833,
+    "ndcg_published": 0.0939329996452833,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_C2|43": {
+    "ndcg_new": 0.10333413850128531,
+    "ndcg_published": 0.10333413850128531,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_D2|43": {
+    "ndcg_new": 0.10727495597399232,
+    "ndcg_published": 0.10727495597399232,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G1|43": {
+    "ndcg_new": 0.06868963986179917,
+    "ndcg_published": 0.06868963986179917,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G2|43": {
+    "ndcg_new": 0.03804474665323237,
+    "ndcg_published": 0.03804474665323237,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_beam|43": {
+    "ndcg_new": 0.08565150107651558,
+    "ndcg_published": 0.08565150107651558,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_exact|43": {
+    "ndcg_new": 0.08707037370672807,
+    "ndcg_published": 0.08707037370672807,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G1b|43": {
+    "ndcg_new": 0.04549261389348026,
+    "ndcg_published": 0.04549261389348026,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_A|44": {
+    "ndcg_new": 0.09519883724447184,
+    "ndcg_published": 0.09519883724447184,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Stage|44": {
+    "ndcg_new": 0.09895052948638665,
+    "ndcg_published": 0.09895052948638665,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_B|44": {
+    "ndcg_new": 0.093544729015295,
+    "ndcg_published": 0.093544729015295,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_C2|44": {
+    "ndcg_new": 0.10116545776100332,
+    "ndcg_published": 0.10116545776100332,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_D2|44": {
+    "ndcg_new": 0.10611872598151799,
+    "ndcg_published": 0.10611872598151799,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_A|44": {
+    "ndcg_new": 0.08373291312564504,
+    "ndcg_published": 0.08373291312564504,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Stage|44": {
+    "ndcg_new": 0.1026798037688793,
+    "ndcg_published": 0.1026798037688793,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_B|44": {
+    "ndcg_new": 0.09342454090214584,
+    "ndcg_published": 0.09342454090214584,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_C2|44": {
+    "ndcg_new": 0.10318356087904781,
+    "ndcg_published": 0.10318356087904781,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_D2|44": {
+    "ndcg_new": 0.1033952820578247,
+    "ndcg_published": 0.1033952820578247,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G1|44": {
+    "ndcg_new": 0.06102501385331089,
+    "ndcg_published": 0.06102501385331089,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G2|44": {
+    "ndcg_new": 0.05751598393435417,
+    "ndcg_published": 0.05751598393435417,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_beam|44": {
+    "ndcg_new": 0.08531792657307252,
+    "ndcg_published": 0.08531792657307252,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_exact|44": {
+    "ndcg_new": 0.08636443492908721,
+    "ndcg_published": 0.08636443492908721,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G1b|44": {
+    "ndcg_new": 0.05917044098470747,
+    "ndcg_published": 0.05917044098470747,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_A|45": {
+    "ndcg_new": 0.09483924394726727,
+    "ndcg_published": 0.09483924394726727,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Stage|45": {
+    "ndcg_new": 0.09528161859560842,
+    "ndcg_published": 0.09528161859560842,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_B|45": {
+    "ndcg_new": 0.1055253690405842,
+    "ndcg_published": 0.1055253690405842,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_C2|45": {
+    "ndcg_new": 0.1079217174948538,
+    "ndcg_published": 0.1079217174948538,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_D2|45": {
+    "ndcg_new": 0.10512624934998831,
+    "ndcg_published": 0.10512624934998831,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_A|45": {
+    "ndcg_new": 0.07923515605862548,
+    "ndcg_published": 0.07923515605862548,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Stage|45": {
+    "ndcg_new": 0.10432413998073047,
+    "ndcg_published": 0.10432413998073047,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_B|45": {
+    "ndcg_new": 0.09219092269805666,
+    "ndcg_published": 0.09219092269805666,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_C2|45": {
+    "ndcg_new": 0.10199743475371835,
+    "ndcg_published": 0.10199743475371835,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_D2|45": {
+    "ndcg_new": 0.09864394895429053,
+    "ndcg_published": 0.09864394895429053,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G1|45": {
+    "ndcg_new": 0.056996245829721064,
+    "ndcg_published": 0.056996245829721064,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G2|45": {
+    "ndcg_new": 0.04460296809619747,
+    "ndcg_published": 0.04460296809619747,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_beam|45": {
+    "ndcg_new": 0.0908277965315138,
+    "ndcg_published": 0.0908277965315138,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_exact|45": {
+    "ndcg_new": 0.09134239512779477,
+    "ndcg_published": 0.09134239512779477,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G1b|45": {
+    "ndcg_new": 0.05740278770127747,
+    "ndcg_published": 0.05740278770127747,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_A|46": {
+    "ndcg_new": 0.09293313761801313,
+    "ndcg_published": 0.09293313761801313,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Stage|46": {
+    "ndcg_new": 0.09738403408758117,
+    "ndcg_published": 0.09738403408758117,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_B|46": {
+    "ndcg_new": 0.1001348768646015,
+    "ndcg_published": 0.1001348768646015,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_C2|46": {
+    "ndcg_new": 0.10035223374151457,
+    "ndcg_published": 0.10035223374151457,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_D2|46": {
+    "ndcg_new": 0.10193531728653277,
+    "ndcg_published": 0.10193531728653277,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_A|46": {
+    "ndcg_new": 0.07560498910278926,
+    "ndcg_published": 0.07560498910278926,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Stage|46": {
+    "ndcg_new": 0.10834890825240913,
+    "ndcg_published": 0.10834890825240913,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_B|46": {
+    "ndcg_new": 0.08903085601060932,
+    "ndcg_published": 0.08903085601060932,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_C2|46": {
+    "ndcg_new": 0.1075808633917876,
+    "ndcg_published": 0.1075808633917876,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_D2|46": {
+    "ndcg_new": 0.0991857196364668,
+    "ndcg_published": 0.0991857196364668,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G1|46": {
+    "ndcg_new": 0.048018856866051604,
+    "ndcg_published": 0.048018856866051604,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G2|46": {
+    "ndcg_new": 0.054074033693357955,
+    "ndcg_published": 0.054074033693357955,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_beam|46": {
+    "ndcg_new": 0.08727632940472971,
+    "ndcg_published": 0.08727632940472971,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_exact|46": {
+    "ndcg_new": 0.0869753745998123,
+    "ndcg_published": 0.0869753745998123,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G1b|46": {
+    "ndcg_new": 0.057559392339112635,
+    "ndcg_published": 0.057559392339112635,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_A|47": {
+    "ndcg_new": 0.09322359784629311,
+    "ndcg_published": 0.09322359784629311,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Stage|47": {
+    "ndcg_new": 0.09774284943795232,
+    "ndcg_published": 0.09774284943795232,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_B|47": {
+    "ndcg_new": 0.09846893913760481,
+    "ndcg_published": 0.09846893913760481,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_C2|47": {
+    "ndcg_new": 0.11008003859984554,
+    "ndcg_published": 0.11008003859984554,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_D2|47": {
+    "ndcg_new": 0.10207116622360332,
+    "ndcg_published": 0.10207116622360332,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_A|47": {
+    "ndcg_new": 0.07898425575511081,
+    "ndcg_published": 0.07898425575511081,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Stage|47": {
+    "ndcg_new": 0.10349011363348544,
+    "ndcg_published": 0.10349011363348544,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_B|47": {
+    "ndcg_new": 0.07928028761630328,
+    "ndcg_published": 0.07928028761630328,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_C2|47": {
+    "ndcg_new": 0.10458945075101973,
+    "ndcg_published": 0.10458945075101973,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_D2|47": {
+    "ndcg_new": 0.0966779155977059,
+    "ndcg_published": 0.0966779155977059,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G1|47": {
+    "ndcg_new": 0.058110819869540795,
+    "ndcg_published": 0.058110819869540795,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G2|47": {
+    "ndcg_new": 0.03917480658083628,
+    "ndcg_published": 0.03917480658083628,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_beam|47": {
+    "ndcg_new": 0.08516219630890806,
+    "ndcg_published": 0.08516219630890806,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_exact|47": {
+    "ndcg_new": 0.08717128706059367,
+    "ndcg_published": 0.08717128706059367,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_A|48": {
+    "ndcg_new": 0.09025126101975736,
+    "ndcg_published": 0.09025126101975736,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Stage|48": {
+    "ndcg_new": 0.09178754620057171,
+    "ndcg_published": 0.09178754620057171,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_B|48": {
+    "ndcg_new": 0.1008774394787007,
+    "ndcg_published": 0.1008774394787007,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_C2|48": {
+    "ndcg_new": 0.11018590191761121,
+    "ndcg_published": 0.11018590191761121,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_D2|48": {
+    "ndcg_new": 0.10728656101788152,
+    "ndcg_published": 0.10728656101788152,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_A|48": {
+    "ndcg_new": 0.08119746362844361,
+    "ndcg_published": 0.08119746362844361,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Stage|48": {
+    "ndcg_new": 0.10231497918490944,
+    "ndcg_published": 0.10231497918490944,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_B|48": {
+    "ndcg_new": 0.08801798297422524,
+    "ndcg_published": 0.08801798297422524,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_C2|48": {
+    "ndcg_new": 0.10047411702331517,
+    "ndcg_published": 0.10047411702331517,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_D2|48": {
+    "ndcg_new": 0.09708913391069446,
+    "ndcg_published": 0.09708913391069446,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G1|48": {
+    "ndcg_new": 0.04595319390485227,
+    "ndcg_published": 0.04595319390485227,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G2|48": {
+    "ndcg_new": 0.04783153950217051,
+    "ndcg_published": 0.04783153950217051,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_beam|48": {
+    "ndcg_new": 0.09115626597042335,
+    "ndcg_published": 0.09115626597042335,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_exact|48": {
+    "ndcg_new": 0.09205192918359202,
+    "ndcg_published": 0.09205192918359202,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_A|49": {
+    "ndcg_new": 0.1033145007421667,
+    "ndcg_published": 0.1033145007421667,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Stage|49": {
+    "ndcg_new": 0.09501363717149994,
+    "ndcg_published": 0.09501363717149994,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_B|49": {
+    "ndcg_new": 0.09617401850179187,
+    "ndcg_published": 0.09617401850179187,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_C2|49": {
+    "ndcg_new": 0.11134561463839918,
+    "ndcg_published": 0.11134561463839918,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_D2|49": {
+    "ndcg_new": 0.10704431845375068,
+    "ndcg_published": 0.10704431845375068,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_A|49": {
+    "ndcg_new": 0.07741512286867475,
+    "ndcg_published": 0.07741512286867475,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Stage|49": {
+    "ndcg_new": 0.11018113787188569,
+    "ndcg_published": 0.11018113787188569,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_B|49": {
+    "ndcg_new": 0.0895568414642636,
+    "ndcg_published": 0.0895568414642636,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_C2|49": {
+    "ndcg_new": 0.1004612293902086,
+    "ndcg_published": 0.1004612293902086,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_D2|49": {
+    "ndcg_new": 0.10166603441356836,
+    "ndcg_published": 0.10166603441356836,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G1|49": {
+    "ndcg_new": 0.047857637190498015,
+    "ndcg_published": 0.047857637190498015,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G2|49": {
+    "ndcg_new": 0.034132647987121886,
+    "ndcg_published": 0.034132647987121886,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_beam|49": {
+    "ndcg_new": 0.08504593776013145,
+    "ndcg_published": 0.08504593776013145,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_exact|49": {
+    "ndcg_new": 0.08502750216542969,
+    "ndcg_published": 0.08502750216542969,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_A|50": {
+    "ndcg_new": 0.09016627568362803,
+    "ndcg_published": 0.09016627568362803,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Stage|50": {
+    "ndcg_new": 0.09795084285802809,
+    "ndcg_published": 0.09795084285802809,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_B|50": {
+    "ndcg_new": 0.0975714481315944,
+    "ndcg_published": 0.0975714481315944,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_C2|50": {
+    "ndcg_new": 0.10143980603931677,
+    "ndcg_published": 0.10143980603931677,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_D2|50": {
+    "ndcg_new": 0.10992759967623011,
+    "ndcg_published": 0.10992759967623011,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_A|50": {
+    "ndcg_new": 0.07763497180827167,
+    "ndcg_published": 0.07763497180827167,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Stage|50": {
+    "ndcg_new": 0.10772592034451468,
+    "ndcg_published": 0.10772592034451468,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_B|50": {
+    "ndcg_new": 0.10051772081868164,
+    "ndcg_published": 0.10051772081868164,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_C2|50": {
+    "ndcg_new": 0.1017433639631998,
+    "ndcg_published": 0.1017433639631998,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_D2|50": {
+    "ndcg_new": 0.10316810807474555,
+    "ndcg_published": 0.10316810807474555,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G1|50": {
+    "ndcg_new": 0.057071556728225836,
+    "ndcg_published": 0.057071556728225836,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G2|50": {
+    "ndcg_new": 0.05451811703700997,
+    "ndcg_published": 0.05451811703700997,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_beam|50": {
+    "ndcg_new": 0.0864215286329813,
+    "ndcg_published": 0.0864215286329813,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_exact|50": {
+    "ndcg_new": 0.08598186760873296,
+    "ndcg_published": 0.08598186760873296,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_A|51": {
+    "ndcg_new": 0.09414847265459309,
+    "ndcg_published": 0.09414847265459309,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Stage|51": {
+    "ndcg_new": 0.09231684515987364,
+    "ndcg_published": 0.09231684515987364,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_B|51": {
+    "ndcg_new": 0.09636943099517102,
+    "ndcg_published": 0.09636943099517102,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_C2|51": {
+    "ndcg_new": 0.09934575693143279,
+    "ndcg_published": 0.09934575693143279,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "FP_Two-Tower_D2|51": {
+    "ndcg_new": 0.10566086368338411,
+    "ndcg_published": 0.10566086368338411,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_A|51": {
+    "ndcg_new": 0.08072765225733733,
+    "ndcg_published": 0.08072765225733733,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Stage|51": {
+    "ndcg_new": 0.10544953526085597,
+    "ndcg_published": 0.10544953526085597,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_B|51": {
+    "ndcg_new": 0.09517694781064857,
+    "ndcg_published": 0.09517694781064857,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_C2|51": {
+    "ndcg_new": 0.10635210179941282,
+    "ndcg_published": 0.10635210179941282,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "ES_Two-Tower_D2|51": {
+    "ndcg_new": 0.09686631787800029,
+    "ndcg_published": 0.09686631787800029,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G1|51": {
+    "ndcg_new": 0.0618370405114528,
+    "ndcg_published": 0.0618370405114528,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G2|51": {
+    "ndcg_new": 0.05584871637643357,
+    "ndcg_published": 0.05584871637643357,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_beam|51": {
+    "ndcg_new": 0.08760173110029079,
+    "ndcg_published": 0.08760173110029079,
+    "diff": 0.0,
+    "n_short_lists": 0
+  },
+  "G3_exact|51": {
+    "ndcg_new": 0.08828996209195311,
+    "ndcg_published": 0.08828996209195311,
+    "diff": 0.0,
+    "n_short_lists": 0
+  }
+}

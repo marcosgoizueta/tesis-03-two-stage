@@ -1,0 +1,92 @@
+{
+  "42": {
+    "G1_hash": "ed2b07a119f750a4",
+    "G2_hash": "435f258dfc63be3d",
+    "G1b_hash": "4937c857d6f72e91",
+    "n_train_full": 80621,
+    "n_test_users": 592,
+    "popularity_ndcg10": 0.08205159442744218,
+    "popularity_cov10": 0.010078157136980667
+  },
+  "43": {
+    "G1_hash": "fb8fcf15104f1b25",
+    "G2_hash": "e4f646a3670e44db",
+    "G1b_hash": "93bbd7b8c9bf7ca6",
+    "n_train_full": 80621,
+    "n_test_users": 592,
+    "popularity_ndcg10": 0.08205159442744218,
+    "popularity_cov10": 0.010078157136980667
+  },
+  "44": {
+    "G1_hash": "f8585c505e7f0b2b",
+    "G2_hash": "b3b16d1bbd4ce0e8",
+    "G1b_hash": "fc86670dd2dd6ec7",
+    "n_train_full": 80621,
+    "n_test_users": 592,
+    "popularity_ndcg10": 0.08205159442744218,
+    "popularity_cov10": 0.010078157136980667
+  },
+  "45": {
+    "G1_hash": "499d34d8660e969e",
+    "G2_hash": "c2f9c00c90fa3ef8",
+    "G1b_hash": "98e23a929fac374c",
+    "n_train_full": 80621,
+    "n_test_users": 592,
+    "popularity_ndcg10": 0.08205159442744218,
+    "popularity_cov10": 0.010078157136980667
+  },
+  "46": {
+    "G1_hash": "d29084e4dbb1d4b0",
+    "G2_hash": "d79eb72f01bfac41",
+    "G1b_hash": "43389760e77ee6a5",
+    "n_train_full": 80621,
+    "n_test_users": 592,
+    "popularity_ndcg10": 0.08205159442744218,
+    "popularity_cov10": 0.010078157136980667
+  },
+  "47": {
+    "G1_hash": "ed4824fe70799d25",
+    "G2_hash": "96597f850451a233",
+    "G1b_hash": null,
+    "n_train_full": 80621,
+    "n_test_users": 592,
+    "popularity_ndcg10": 0.08205159442744218,
+    "popularity_cov10": 0.010078157136980667
+  },
+  "48": {
+    "G1_hash": "7b73ddfc89cf9350",
+    "G2_hash": "15b29486a787ef72",
+    "G1b_hash": null,
+    "n_train_full": 80621,
+    "n_test_users": 592,
+    "popularity_ndcg10": 0.08205159442744218,
+    "popularity_cov10": 0.010078157136980667
+  },
+  "49": {
+    "G1_hash": "507c7e9357a8e110",
+    "G2_hash": "adabca8b509640c9",
+    "G1b_hash": null,
+    "n_train_full": 80621,
+    "n_test_users": 592,
+    "popularity_ndcg10": 0.08205159442744218,
+    "popularity_cov10": 0.010078157136980667
+  },
+  "50": {
+    "G1_hash": "4ea3e34a6be88373",
+    "G2_hash": "96000b22fb543c16",
+    "G1b_hash": null,
+    "n_train_full": 80621,
+    "n_test_users": 592,
+    "popularity_ndcg10": 0.08205159442744218,
+    "popularity_cov10": 0.010078157136980667
+  },
+  "51": {
+    "G1_hash": "1b9af684bbd2c722",
+    "G2_hash": "23b5434ecb2853a7",
+    "G1b_hash": null,
+    "n_train_full": 80621,
+    "n_test_users": 592,
+    "popularity_ndcg10": 0.08205159442744218,
+    "popularity_cov10": 0.010078157136980667
+  }
+}

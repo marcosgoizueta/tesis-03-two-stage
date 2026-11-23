@@ -1,0 +1,17 @@
+{
+  "ndcg@10": 0.03893607637986549,
+  "recall@10": 0.024289563938189526,
+  "recall@50": 0.07031893764803794,
+  "cold_recall@50": 0.0,
+  "cov@10": 0.04607157548334019,
+  "tail@10": 0.002364864864864865,
+  "n_eval_users": 592,
+  "rmse_test_pointwise": 0.9693754315376282,
+  "epochs": 15,
+  "final_train_mse": 0.43118736829495796,
+  "fit_s": 14.185798799968325,
+  "seed": 43,
+  "device": "cuda",
+  "torch": "2.6.0+cu124",
+  "protocol": "temporal_full_ranking, entrenado con todas las valoraciones de train_full"
+}

@@ -1,0 +1,18 @@
+{
+  "SVD": {
+    "rmse": 0.8826010130235483,
+    "mae": 0.6749090398435935,
+    "colab_rmse": 0.8807462819979623,
+    "colab_mae": 0.6765729095860605,
+    "fit_s": 11.581160599947907
+  },
+  "NCF": {
+    "rmse": 0.962897777557373,
+    "mae": 0.7392856762203277,
+    "colab_rmse": 0.9645499936943835,
+    "colab_mae": 0.7388425987599531,
+    "final_train_mse": 0.4430161444682255,
+    "colab_final_train_mse": 0.4375
+  },
+  "tolerance_note": "El notebook de NCF corri\u00f3 en GPU de Colab; el RNG de la GPU difiere (ver CLAUDE.md secci\u00f3n 3)."
+}

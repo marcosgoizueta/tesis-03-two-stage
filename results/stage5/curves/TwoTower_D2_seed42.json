@@ -1,0 +1,60 @@
+{
+  "model": "Two-Tower (D2 - Control ID+G\u00e9neros con Dropout)",
+  "variant": "D2",
+  "seed": 42,
+  "best_epoch": 4,
+  "best_val_loss": 0.3427595452763425,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.47589514135094,
+      "val_loss": 0.43967238947659193
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.39426484801380607,
+      "val_loss": 0.384929778134559
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.3503694440365267,
+      "val_loss": null
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.32819620349541573,
+      "val_loss": 0.3427595452763425
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.31803259778738907,
+      "val_loss": null
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.3095864540419652,
+      "val_loss": 0.3384727762978322
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.30263785914932734,
+      "val_loss": null
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.29619397410513354,
+      "val_loss": 0.3406072665508124
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.2909404286270483,
+      "val_loss": null
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.2873874394238391,
+      "val_loss": 0.3389873218728263
+    }
+  ],
+  "timestamp": 1795154534.6655347
+}
